@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+</head>
+
+
+<body>
+    <p>
+        Policz swoje BMI!
+    </p>
+
+<form class="js-form">
+    <fieldset>
+        <legend>Twoje dane</legend>
+        <p>
+            <label>
+                Twój wzrost: <input class="js-height" type="number" min="1" step="any" value="170" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Twój wzrost: <input class="js-weight" type="number" min="1" step="any" required>
+            </label>
+        </p>
+    </fieldset>
+    <p>
+        <button class="js-submit">Policz BMI!</button>
+        <button type="reset" class="js-reset">Wyczyść</button>
+  
+    </p>
+    </form>
+    <p>Twoje BMI wynosi: <strong class="js-bmi">N/A</strong></p>
+
+    <p>Twoje drugie BMI wynosi: <strong class="js-bmi">N/A</strong></p>
+
+</body>
+</html>
